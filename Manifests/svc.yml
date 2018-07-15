@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: hello-svc
   labels:
+  zone: prod
     app: nginx
 spec:
   type: NodePort
